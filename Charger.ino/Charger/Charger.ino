@@ -68,7 +68,7 @@ String SendHTML(uint8_t state){
   ptr += "</head>\n";
   ptr += "</body>\n";
   ptr += "<h1>Charger Box of VMC</h1>\n";
-  ptr += "<img src="D:\7.GITHUB\Charger_Box\Charger.ino\Charger\Logo Viettel manufacturing_1 (2).jpg"  width="330" height="120">\n";
+//  ptr += "<img src="D:\7.GITHUB\Charger_Box\Charger.ino\Charger\Logo Viettel manufacturing_1 (2).jpg"  width="330" height="120">\n";
   
   if(relay1state){
     ptr += "<p>Relay state: ON</p><a class = \"button button-off\" href=\"/relay1on\">OFF</a>";
